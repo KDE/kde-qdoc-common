@@ -1,0 +1,13 @@
+include(global/qt-module-defaults-online.qdocconf)
+
+# Instruct Clang not to look for a module header
+moduleheader =
+
+project = KDE
+
+macro.indextitle              = "\\title KDE API Documentation"
+
+includedirs =
+sourcedirs = .
+
+depends = *

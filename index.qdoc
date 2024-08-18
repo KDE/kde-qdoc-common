@@ -1,0 +1,306 @@
+/*!
+\page index.html
+\title KDE Libraries
+\keyword Qt Reference Documentation
+
+\section1 KDE Frameworks
+
+The KDE Frameworks build on the Qt framework, providing everything from simple utility classes (such as those in KCoreAddons) to integrated solutions for common requirements of desktop applications (such as KNewStuff, for fetching downloadable add-on content in an application, or the powerful KIO multi-protocol file access framework).
+
+The KDE Frameworks can be used in CMake-based and QMake-based projects, and most of them are portable to at least Windows, Mac and Linux. The documentation of each framework has code snippets that show how to include the framework in a QMake or CMake project.
+
+The frameworks are divided into four tiers, based on the kind of dependencies that they have. For instance, Tier 1 frameworks depend on Qt and possibly some third-party libraries, but not on other frameworks. This makes them easy to integrate into existing applications.
+
+\section2 Tier 0
+
+\grid
+    \griditem {https://api.kde.org/ecm/}{ECM} {
+         Extra CMake modules
+    }
+\endgrid
+
+\section2 Tier 1
+
+Tier 1 frameworks depend only on Qt (and possibly a small number of other third-party libraries), so can easily be used by any Qt-based project.
+
+//! [frameworks-tier1]
+\grid
+    \griditem {attica-index.html}{Attica} {
+        Open Collaboration Services API
+    }
+    \griditem {bluez-qt-index.html}{BluezQt} {
+         Qt wrapper for BlueZ 5 DBus API
+    }
+    \griditem {karchive-index.html}{KArchive} {
+        File compression
+    }
+    \griditem {kcalendarcore-index.html}{KCalendarCore} {
+        The KDE calendar access library
+    }
+    \griditem {kcodecs-index.html}{KCodecs} {
+        Text encoding
+    }
+    \griditem {kconfig-index.html}{KConfig} {
+        Configuration system
+    }
+    \griditem {kcoreaddons-index.html}{KCoreAddons} {
+        Addons to QtCore
+    }
+    \griditem {kdbusaddons-index.html}{KDBusAddons} {
+        Addons to QtDBus
+    }
+    \griditem {kglobalaccel-index.html}{KGlobalAccel} {
+        Add support for global workspace shortcuts
+    }
+    \griditem {kguiaddons-index.html}{KGuiAddons} {
+        Addons to QtGui
+    }
+    \griditem {kholidays-index.html}{KHolidays} {
+        Holiday calculation library
+    }
+    \griditem {ki18n-index.html}{KI18n} {
+        Advanced internationalization framework
+    }
+    \griditem {kidletime-index.html}{KIdleTime} {
+        Monitoring user activity
+    }
+    \griditem {kirigami-index.html}{Kirigami} {
+        QtQuick plugins to build user interfaces based on the KDE human interface guidelines
+    }
+    \griditem {kitemmodels-index.html}{KItemModels} {
+        Models for Qt Model/View system
+    }
+    \griditem {kitemviews-index.html}{KItemViews} {
+        Widget addons for Qt Model/View
+    }
+    \griditem {kplotting-index.html}{KPlotting} {
+        Lightweight plotting framework
+    }
+    \griditem {kquickcharts-index.html}{KQuickCharts} {
+        A QtQuick module providing high-performance charts
+    }
+    \griditem {ksyntaxhighlighting-index.html}{KSyntaxHighlighting} {
+        Syntax Highlighting
+    }
+    \griditem {ktexttemplate-index.html}{KTextTemplate} {
+         Library to allow application developers to separate the structure of documents from the data they contain
+    }
+    \griditem {kuserfeedback-index.html}{KUserFeedback} {
+        User feedback framework
+    }
+    \griditem {kwidgetsaddons-index.html}{KWidgetsAddons} {
+        Addons to QtWidgets
+    }
+    \griditem {kwindowsystem-index.html}{KWindowSystem} {
+         Access to the windowing system
+    }
+    \griditem {modemmanager-qt-index.html}{ModemManagerQt} {
+        Qt wrapper for ModemManager API
+    }
+    \griditem {networkmanager-qt-index.html}{NetworkManagerQt} {
+        Qt wrapper for NetworkManager API
+    }
+    \griditem {prison-index.html}{Prison} {
+         Barcode abstraction layer providing uniform access to generation of barcodes
+    }
+    \griditem {solid-index.html}{Solid} {
+        Hardware integration and detection
+    }
+    \griditem {sonnet-index.html}{Sonnet} {
+        Support for spellchecking
+    }
+    \griditem {threadweaver-index.html}{ThreadWeaver} {
+        High-level multithreading framework
+    }
+\endgrid
+//! [frameworks-tier1]
+
+\section2 Tier 2
+
+Tier 2 frameworks additionally depend on tier 1 frameworks, but still have easily manageable dependencies.
+
+//! [frameworks-tier2]
+\grid
+    \griditem {kauth-index.html}{KAuth} {
+        Abstraction to system policy and authentication features
+    }
+    \griditem {kcolorscheme-index.html}{KColorScheme} {
+        Classes to interact with KColorScheme
+    }
+    \griditem {kcompletion-index.html}{KCompletion} {
+        Text completion helpers and widgets
+    }
+    \griditem {kcontacts-index.html}{KContacts} {
+        Support for vCard contacts
+    }
+    \griditem {kcrash-index.html}{KCrash} {
+        Support for application crash analysis and bug report from apps
+    }
+    \griditem {kdeclarative-index.html}{KDeclarative} {
+        Provides integration of QML and KDE Frameworks
+    }
+    \griditem {kfilemetadata-index.html}{KFileMetaData} {
+        A file metadata and text extraction library
+    }
+    \griditem {knotifications-index.html}{KNotifications} {
+        Abstraction for system notifications
+    }
+    \griditem {kpackage-index.html}{KPackage} {
+        Library to load and install packages of non binary files as they were a plugin
+    }
+    \griditem {kpty-index.html}{KPty} {
+         Pty abstraction
+    }
+    \griditem {kservice-index.html}{KService} {
+        Library for querying installed applications and their associated file types
+    }
+    \griditem {kstatusnotifieritem-index.html}{KStatusNotifierItem} {
+        Implementation of Status Notifier Items
+    }
+    \griditem {kunitconversion-index.html}{KUnitConversion} {
+        Support for unit conversion
+    }
+    \griditem {syndication-index.html}{Syndication} {
+        An RSS/Atom parser library
+    }
+\endgrid
+//! [frameworks-tier2]
+
+\section2 Tier 3
+
+Tier 3 frameworks are generally more powerful, comprehensive packages, and consequently have more complex dependencies.
+
+//! [frameworks]
+\grid
+    \griditem {baloo-index.html}{Baloo} {
+        Baloo is a file indexing and searching framework
+    }
+    \griditem {kbookmarks-index.html}{KBookmarks} {
+        Support for bookmarks and the XBEL format
+    }
+    \griditem {kcmutils-index.html}{KCMUtils} {
+        Utilities for working with KCModules
+    }
+    \griditem {kconfigwidgets-index.html}{KConfigWidgets} {
+        Widgets for configuration dialogs
+    }
+    \griditem {kdav-index.html}{KDAV} {
+        An DAV protocol implementation with KJobs
+    }
+    \griditem {kdesu-index.html}{KDESu} {
+        Integration with su for elevated privileges
+    }
+    \griditem {kiconthemes-index.html}{KIconThemes} {
+        Support for icon themes
+    }
+    \griditem {kio-index.html}{KIO} {
+        Resource and network access abstraction
+    }
+    \griditem {kjobwidgets-index.html}{KJobWidgets} {
+        Widgets for tracking KJob instances
+    }
+    \griditem {knewstuff-index.html}{KNewStuff} {
+        Support for downloading application assets from the network
+    }
+    \griditem {knotifyconfig-index.html}{KNotifyConfig} {
+        Configuration system for KNotify
+    }
+    \griditem {kparts-index.html}{KParts} {
+        Document centric plugin system
+    }
+    \griditem {kpeople-index.html}{KPeople} {
+        Provides access to all contacts and the people who hold them
+    }
+    \griditem {krunner-index.html}{KRunner} {
+        Parallelized query system
+    }
+    \griditem {ksvg-index.html}{KSvg} {
+        A library for rendering SVG-based themes with stylesheet re-coloring and on-disk caching
+    }
+    \griditem {ktexteditor-index.html}{KTextEditor} {
+        Advanced embeddable text editor
+    }
+    \griditem {ktextwidgets-index.html}{KTextWidgets} {
+        Advanced text editing widgets
+    }
+    \griditem {kwallet-index.html}{KWallet} {
+        Secure and unified container for user passwords
+    }
+    \griditem {kxmlgui-index.html}{KXMLGui} {
+        User configurable main windows
+    }
+    \griditem {purpose-index.html}{Purpose} {
+        Offers available actions for a specific purpose.
+    }
+
+\endgrid
+//! [frameworks]
+
+\section2 Tier 4
+
+    Tier 4 frameworks can be mostly ignored by application programmers; this tier consists of plugins acting behind the scenes to provide additional functionality or platform integration to existing frameworks (including Qt).
+
+//! [frameworks]
+\grid
+    \griditem {frameworkintegration-index.html}{FrameworkIntegration} {
+    Workspace and cross-framework integration plugins.
+    }
+\endgrid
+//! [frameworks]
+
+TODO: There are frameworks that don't have API: kded, qqc2-desktop-style, breeze-icons, kimageformats, kdoctools. We probably want to at least mention those?
+
+\section1 Other Libraries
+
+These libraries are also offered by the KDE Community but don't neccesarily provide the same quality standards and compatibility promises as the KDE Frameworks.
+
+TODO add them
+
+\section2 Plasma
+
+//! [frameworks]
+\grid
+    \griditem {plasma-index.html}{LibPlasma} {
+        Building Blocks for Plasma
+    }
+    \griditem {libtaskmanager-index.html}{LibTaskManager} {
+        Task Manager Support
+    }
+    \griditem {layershellqt-index.html}{LayerShellQt} {
+        Integrate the layer-shell protocol with Qt
+    }
+    \griditem {union-index.html}{Union} {
+        Unionize the theming
+    }
+\endgrid
+//! [frameworks]
+
+\section2 PIM
+
+//! [frameworks]
+\grid
+    \griditem {kimap-index.html}{KIMAP} {
+        IMAP handling library
+    }
+    \griditem {ksmtp-index.html}{KSMTP} {
+        SMTP handling library
+    }
+\endgrid
+//! [frameworks]
+
+\section2 Other
+
+//! [frameworks]
+\grid
+    \griditem {kweathercore-index.html}{KWeatherCore} {
+        Weather
+    }
+    \griditem {pulseaudioqt-index.html}{PulseAudioQt} {
+        Qt bindings for PulseAudio
+    }
+\endgrid
+//! [frameworks]
+
+...
+
+*/

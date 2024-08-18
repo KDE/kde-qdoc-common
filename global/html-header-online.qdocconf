@@ -1,0 +1,108 @@
+# HTML Header with qt.io branding and online links
+
+HTML.stylesheets = template/style/online.css \
+                   template/style/cookie-confirm.css \
+                   template/style/gsc.css \
+                   template/style/list_arrow.png \
+                   template/style/list_expand.png \
+                   template/style/icomoon.eot \
+                   template/style/icomoon.svg \
+                   template/style/icomoon.ttf \
+                   template/style/icomoon.woff \
+                   template/style/cookiebar-x.png \
+                   template/style/doc_search.png \
+                   template/style/tech_preview.svg \
+                   template/style/theqtcompany.png
+
+
+#for including files into the qch file. Relative to the outputdir of a QDoc build.
+qhp.extraFiles += style/online.css \
+                  style/cookie-confirm.css \
+                  style/gsc.css \
+                  style/list_arrow.png \
+                  style/list_expand.png \
+                  style/icomoon.eot \
+                  style/icomoon.svg \
+                  style/icomoon.ttf \
+                  style/icomoon.woff \
+                  style/cookiebar-x.png \
+                  style/doc_search.png \
+                  style/tech_preview.svg \
+                  style/theqtcompany.png
+
+HTML.headerstyles = \
+    "  <link rel=\"stylesheet\" type=\"text/css\" href=\"style/online.css\" />\n" \
+    "  <link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.kde.org/aether-devel/aether-docsy.css\" />\n" \
+    "  <link rel=\"shortcut icon\" href=\"favicon.ico\" />\n"
+
+HTML.headerscripts = \
+    "  <script type=\"text/javascript\"> wpThemeFolder = \'http://qt.io/wp-content/themes/oneqt\'; </script>\n" \
+    "  <script type=\"text/javascript\" src=\"//d33sqmjvzgs8hq.cloudfront.net/wp-includes/js/jquery/jquery.js.gzip\"></script>\n" \
+    "  <script type=\"text/javascript\" src=\"//d33sqmjvzgs8hq.cloudfront.net/wp-includes/js/jquery/jquery-migrate.min.js.gzip\"></script>\n" \
+    "  <script type=\"text/javascript\" src=\"//d33sqmjvzgs8hq.cloudfront.net/wp-content/themes/oneqt/js/combo.js.gzip\"></script>\n" \
+    "  <script type=\"text/javascript\" src=\"scripts/main.js\"></script>\n" \
+    "  <script type=\"text/javascript\" src=\"scripts/extras.js\"></script>\n" \
+    "  <script type=\"text/javascript\">\n" \
+    "  \$(function(){\n" \
+    "     \$(\"#footer\").load(\"/style/qt-footer.html\");\n" \
+    "     \$(\"#sidebar-content\").load(\"style/qt5-sidebar.html\");\n" \
+    "  });\n" \
+    "  </script>\n"
+#     "  <script type=\"text/javascript\">\n" \
+#     "    (function (i, s, o, g, r, a, m) {\n" \
+#     "      i[\'GoogleAnalyticsObject\'] = r; i[r] = i[r] || function () {\n" \
+#     "        (i[r].q = i[r].q || []).push(arguments)\n" \
+#     "        }, i[r].l = 1 * new Date(); a = s.createElement(o),\n" \
+#     "        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)\n" \
+#     "    })(window, document, \'script\', \'//www.google-analytics.com/analytics.js\', \'ga\');\n\n" \
+#     "    ga(\'create\', \'UA-54043535-2\', \'qt.io\');\n" \
+#     "    ga(\'set\', \'forceSSL\', true);\n" \
+#     "    ga(\'send\', \'pageview\');\n" \
+#     "  </script>\n"
+
+HTML.scripts = template/scripts/extras.js \
+               template/scripts/main.js
+
+HTML.endheader = \
+    "</head>\n"
+
+# minimal header
+HTML.postheader = \
+    "<body>\n" \
+    "<div class=\"container-fluid\">\n" \
+    "  <header class=\"header row\">\n" \
+    "    <nav class=\"col-12 col-md-9 col-xl-8 offset-md-3 offset-xl-2 js-navbar-scroll navbar navbar-expand flex-column flex-md-row td-navbar\">\n" \
+    "      <a class=\"navbar-brand kde-logo active d-none d-lg-flex\" href=\"/\">Developer</a>\n" \
+    "      <div class=\"td-navbar-nav-scroll\" id=\"main_navbar\">\n" \
+    "        <ul class=\"navbar-nav\">\n" \
+    "          <li class=\"nav-item\">\n" \
+    "            <a class=\"nav-link kde-logo active d-lg-none d-flex active\" href=\"/\">API</a>\n" \
+    "          </li>\n" \
+    "          <li class=\"nav-item\">\n" \
+    "            <a class=\"nav-link\" href=\"https://develop.kde.org/docs/\"><span>Documentation</span></a>\n" \
+    "          </li>\n" \
+    "          <li class=\"nav-item\">\n" \
+    "            <a class=\"nav-link active\" href=\"https://api.kde.org\" target=\"_blank\"><span class=\"active\">API</span></a>\n" \
+    "          </li>\n" \
+    "          <li class=\"nav-item\">\n" \
+    "            <a class=\"nav-link\" href=\"https://develop.kde.org/hig/\"><span>KDE Human Interface Guidelines</span></a>\n" \
+    "          </li>\n" \
+    "        </ul>\n" \
+    "      </div>\n" \
+    "    </nav>\n" \
+    "  </header>\n" \
+    "</div>\n" \
+    "<div class=\"main\">\n" \
+    "<div class=\"main-rounded\">\n" \
+    "<div class=\"navigationbar\">\n" \
+    "    <ul class=\"breadcrumb spb-1\">\n"
+
+HTML.postpostheader = \
+    "    </ul>\n" \
+    "</div>\n" \
+    "<div>\n" \
+    "    <div class=\"line\">\n" \
+    "        <div class=\"mainContent\">\n"
+
+HTML.prologue = \
+    "<div class=\"context\">\n"
