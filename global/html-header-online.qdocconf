@@ -31,6 +31,7 @@ qhp.extraFiles += style/online.css \
                   style/theqtcompany.png
 
 HTML.headerstyles = \
+    "  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n" \
     "  <link rel=\"stylesheet\" type=\"text/css\" href=\"style/online.css\" />\n" \
     "  <link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.kde.org/aether-devel/aether-docsy.css\" />\n" \
     "  <link rel=\"shortcut icon\" href=\"images/favicon.ico\" />\n"
