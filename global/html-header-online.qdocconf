@@ -33,7 +33,7 @@ qhp.extraFiles += style/online.css \
 HTML.headerstyles = \
     "  <link rel=\"stylesheet\" type=\"text/css\" href=\"style/online.css\" />\n" \
     "  <link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.kde.org/aether-devel/aether-docsy.css\" />\n" \
-    "  <link rel=\"shortcut icon\" href=\"favicon.ico\" />\n"
+    "  <link rel=\"shortcut icon\" href=\"images/favicon.ico\" />\n"
 
 HTML.headerscripts = \
     "  <script type=\"text/javascript\"> wpThemeFolder = \'http://qt.io/wp-content/themes/oneqt\'; </script>\n" \
