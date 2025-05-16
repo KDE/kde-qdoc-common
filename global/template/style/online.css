@@ -19,7 +19,7 @@ toc h3:before {
 
 .mainContent {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 3fr 1fr;
   max-width: 100%;
   gap: 16px;
 }
