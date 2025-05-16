@@ -298,6 +298,10 @@ TODO add them
     \griditem {pulseaudioqt-index.html}{PulseAudioQt} {
         Qt bindings for PulseAudio
     }
+    \griditem {md4qt-index.html}{md4qt} {
+        Header-only C++ library for parsing Markdown
+    }
+
 \endgrid
 //! [frameworks]
 
