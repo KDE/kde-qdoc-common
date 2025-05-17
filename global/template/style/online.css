@@ -48,10 +48,6 @@ toc h3:before {
   }
 }
 @media (max-width: 1120px) {
-  body .main {
-    margin-top:0px;
-  }
-
   ul#menu-footer-submenu {
     margin-left: 0
   }
@@ -182,8 +178,6 @@ ol,ul {
 
 .toc {
   display: block;
-  position: sticky;
-  top: 40px;
 }
 
 .context ol,.context ul {
@@ -220,8 +214,6 @@ blockquote:before,blockquote:after,q:before,q:after {
   width:100%
 }
 table {
-  border-collapse:collapse;
-  width:100%;
   max-width: 100%;
 }
 a {
@@ -229,20 +221,14 @@ a {
   transition-duration:0.3s
 }
 .main {
-  max-width:1280px;
-  width:95%;
-  margin:0 auto;
+  max-width: 1300px;
+  margin-inline: auto;
+  margin-top: 80px;
+  padding-inline: 8px;
 }
-.main {
-  margin-top:80px
-}
-@media (max-width: 1120px) {
-  .main,.navbar-header {
-    width: 100%;
-    margin: 0;
-  }
-  .main .main-rounded {
-    padding: 8px;
+@media (max-width: 768px) {
+  .main {
+    margin-top: 32px;
   }
 }
 .sectionlist {
@@ -285,7 +271,10 @@ div.multi-column div {
 }
 .sidebar {
   display: block;
-  padding-right: 16px;
+  overflow-y: auto;
+  position: sticky;
+  top: 60px;
+  max-height: calc(100vh - 60px);
 }
 
 @media (width <= 1100px) {
@@ -330,7 +319,6 @@ dd {
 }
 .mainContent li {
   margin-top:0.5em;
-  line-height:1.25em
 }
 .mainContent li.level2 {
   margin-left:10px;
@@ -411,7 +399,6 @@ p.naviNextPrevious + p {
   list-style-image:url("list_arrow.png");
   margin-left:15px;
   margin-top:0.65em;
-  line-height:1em
 }
 .mainContent table p {
   margin:0px;
@@ -690,9 +677,6 @@ pre:hover>.copy_text {
   }
   #main_title_bar .search_bar {
     margin-bottom:15px
-  }
-  .main {
-    margin-top:0px;
   }
   .main_index .row {
     border:none !important
