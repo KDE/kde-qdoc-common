@@ -301,6 +301,9 @@ TODO add them
     \griditem {md4qt-index.html}{md4qt} {
         Header-only C++ library for parsing Markdown
     }
+    \griditem {kirigami-addons-index.html}{Kirigami Addons} {
+        Add-ons for the Kirigami framework
+    }
 
 \endgrid
 //! [frameworks]
