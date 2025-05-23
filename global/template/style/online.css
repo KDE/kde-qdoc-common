@@ -1099,3 +1099,9 @@ html.translated-ltr .mainContent p a,
 html.translated-rtl .mainContent p a {
   margin:0 2px 0 2px;
 }
+
+.l-tile {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 10%;
+}
