@@ -292,10 +292,10 @@ TODO add them
 
 //! [frameworks]
 \grid
-    \griditem {kweathercore-index.html}{KWeatherCore} {
+    \griditem {kweathercore/html/index.html}{KWeatherCore} {
         Weather
     }
-    \griditem {pulseaudioqt-index.html}{PulseAudioQt} {
+    \griditem {pulseaudio-qt/html/index.html}{PulseAudioQt} {
         Qt bindings for PulseAudio
     }
     \griditem {md4qt-index.html}{md4qt} {
@@ -303,6 +303,12 @@ TODO add them
     }
     \griditem {kirigami-addons-index.html}{Kirigami Addons} {
         Add-ons for the Kirigami framework
+    }
+    \griditem {ksane/html/index.html}{KSane} {
+        Scanner
+    }
+    \griditem {ksanecore/html/index.html}{KSaneCore} {
+        Scanner
     }
 
 \endgrid
