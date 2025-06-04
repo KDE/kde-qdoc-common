@@ -248,13 +248,9 @@ Tier 3 frameworks are generally more powerful, comprehensive packages, and conse
 \endgrid
 //! [frameworks]
 
-TODO: There are frameworks that don't have API: kded, qqc2-desktop-style, breeze-icons, kimageformats, kdoctools. We probably want to at least mention those?
-
 \section1 Other Libraries
 
 These libraries are also offered by the KDE Community but don't neccesarily provide the same quality standards and compatibility promises as the KDE Frameworks.
-
-TODO add them
 
 \section2 Plasma
 
@@ -263,27 +259,8 @@ TODO add them
     \griditem {plasma-index.html}{LibPlasma} {
         Building Blocks for Plasma
     }
-    \griditem {libtaskmanager-index.html}{LibTaskManager} {
-        Task Manager Support
-    }
-    \griditem {layershellqt-index.html}{LayerShellQt} {
-        Integrate the layer-shell protocol with Qt
-    }
     \griditem {union-index.html}{Union} {
-        Unionize the theming
-    }
-\endgrid
-//! [frameworks]
-
-\section2 PIM
-
-//! [frameworks]
-\grid
-    \griditem {kimap-index.html}{KIMAP} {
-        IMAP handling library
-    }
-    \griditem {ksmtp-index.html}{KSMTP} {
-        SMTP handling library
+        A Qt style supporting both QtQuick and QtWidgets.
     }
 \endgrid
 //! [frameworks]
@@ -292,28 +269,14 @@ TODO add them
 
 //! [frameworks]
 \grid
-    \griditem {kweathercore/html/index.html}{KWeatherCore} {
-        Weather
-    }
-    \griditem {pulseaudio-qt/html/index.html}{PulseAudioQt} {
-        Qt bindings for PulseAudio
-    }
     \griditem {md4qt-index.html}{md4qt} {
         Header-only C++ library for parsing Markdown
     }
     \griditem {kirigami-addons-index.html}{Kirigami Addons} {
         Add-ons for the Kirigami framework
     }
-    \griditem {ksane/html/index.html}{KSane} {
-        Scanner
-    }
-    \griditem {ksanecore/html/index.html}{KSaneCore} {
-        Scanner
-    }
 
 \endgrid
 //! [frameworks]
-
-...
 
 */
