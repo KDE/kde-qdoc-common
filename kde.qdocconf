@@ -1,4 +1,4 @@
-include(global/qt-module-defaults-online.qdocconf)
+include(global/qt-module-defaults.qdocconf)
 
 # Instruct Clang not to look for a module header
 moduleheader =
