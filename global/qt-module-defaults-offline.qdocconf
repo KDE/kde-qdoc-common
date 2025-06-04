@@ -14,4 +14,4 @@ include(qt-html-templates-offline.qdocconf)
 include(config.qdocconf)
 
 # Show Qt version as part of the navigation bar
-buildversion = "Qt $QT_VERSION Reference Documentation"
+# buildversion = "Qt $QT_VERSION Reference Documentation"
