@@ -28,7 +28,7 @@ Tier 1 frameworks depend only on Qt (and possibly a small number of other third-
     \griditem {attica-index.html}{Attica} {
         Open Collaboration Services API
     }
-    \griditem {bluez-qt-index.html}{BluezQt} {
+    \griditem {bluezqt-index.html}{BluezQt} {
          Qt wrapper for BlueZ 5 DBus API
     }
     \griditem {karchive-index.html}{KArchive} {
