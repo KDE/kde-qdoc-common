@@ -278,6 +278,93 @@ These libraries are also offered by the KDE Community but don't neccesarily prov
 \griditem {legacy/kdepim/akonadi-contacts/html/index.html}{Akonadi Contacts} {
     Akonadi Contacts Library
 }
+\griditem {legacy/kdepim/akonadi-mime/html/index.html}{Akonadi Mime} {
+    Akonadi Mime Library
+}
+\griditem {legacy/kdepim/akonadi-search/html/index.html}{Akonadi Search} {
+    Akonadi indexing and searching Library
+}
+\griditem {legacy/kdepim/calendarsupport/html/index.html}{CalendarSupport} {
+    Calendar Support Library
+}
+\griditem {legacy/kdepim/eventviews/html/index.html}{Eventviews} {
+    Event Views Library
+}
+\griditem {legacy/kdepim/grantleetheme/html/index.html}{GrantleeTheme} {
+    KDE PIM Grantlee theme support library
+}
+\griditem {legacy/kdepim/libgravatar/html/index.html}{Gravatar} {
+    Gravatar Support Library
+}
+\griditem {legacy/kdepim/incidenceeditor/html/index.html}{Indicenceeditor} {
+    Incidenceeditor Library
+}
+\griditem {legacy/kdepim/kcalutils/html/index.html}{KCalUtils} {
+    Calendar Utility Library
+}
+\griditem {legacy/kdepim/libkgapi/html/index.html}{KGAPI} {
+    Implementation of APIs for various Google services
+}
+\griditem {legacy/kdepim/kidentitymanagement/html/index.html}{KIdentityManagement} {
+    Manage PIM Identity
+}
+\griditem {legacy/kdepim/kimap/html/index.html}{KIMAP} {
+    A job-based API for interacting with IMAP servers
+}
+\griditem {legacy/kdepim/kitinerary/html/index.html}{KItinerary} {
+    Itinerary extraction and data model
+}
+\griditem {legacy/kdepim/kldap/html/index.html}{KLdap} {
+    LDAP Support Library
+}
+\griditem {legacy/kdepim/kmbox/html/index.html}{KMbox} {
+    MBox library support
+}
+\griditem {legacy/kdepim/kmime/html/index.html}{KMime} {
+    The KMime Library
+}
+\griditem {legacy/kdepim/kontactinterface/html/index.html}{KontactInterface} {
+    Kontact Plugin Interface Library
+}
+\griditem {legacy/kdepim/kpimtextedit/html/index.html}{KPimTextEdit} {
+    Advanced text editor which provide advanced html feature
+}
+\griditem {legacy/kdepim/kpkpass/html/index.html}{KPkPass} {
+    PkPass File Support
+}
+\griditem {legacy/kdepim/kpublictransport/html/index.html}{KPublicTransport} {
+    Public transport data querying API
+}
+\griditem {legacy/kdepim/ksmtp/html/index.html}{KSMTP} {
+    SMTP Library
+}
+\griditem {legacy/kdepim/ktnef/html/index.html}{KTnef} {
+    An API for handling TNEF data
+}
+\griditem {legacy/kdepim/libkdepim/html/index.html}{Libkdepim} {
+    KDEpim Library
+}
+\griditem {legacy/kdepim/libkleo/html/index.html}{Libkleo} {
+    Kleopatra certificate management library
+}
+\griditem {legacy/kdepim/libksieve/html/index.html}{Libksieve} {
+    Sieve Script Library
+}
+\griditem {legacy/kdepim/mailcommon/html/index.html}{Mailcommon} {
+    MailCommon Library
+}
+\griditem {legacy/kdepim/mailimporter/html/index.html}{MailImporter} {
+    Mail Importer Library implements importing of emails from various other email clients
+}
+\griditem {legacy/kdepim/mailtransport/html/index.html}{MailTransport} {
+    Manage mail transport
+}
+\griditem {legacy/kdepim/messagelib/html/index.html}{Messagelib} {
+    Messagelib Library which contains MessageComposer, MessageCore, MessageList, MessageViewer, MimeTreeParser, TemplateParser and WebEngineViewer
+}
+\griditem {legacy/kdepim/pimcommon/html/index.html}{Pimcommon} {
+    PimCommon Library which contains PimCommon, PimCommonAkonadi
+}
 \endgrid
 //! [pim]
 
