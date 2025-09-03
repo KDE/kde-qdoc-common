@@ -265,6 +265,22 @@ These libraries are also offered by the KDE Community but don't neccesarily prov
 \endgrid
 //! [frameworks]
 
+\section2 KDE PIM
+
+//! [pim]
+\grid
+\griditem {legacy/kdepim/akonadi/html/index.html}{Akonadi} {
+    PIM Storage Framework
+}
+\griditem {legacy/kdepim/akonadi-calendar/html/index.html}{Akonadi Calendar} {
+     Akonadi Calendar Library
+}
+\griditem {legacy/kdepim/akonadi-contacts/html/index.html}{Akonadi Contacts} {
+    Akonadi Contacts Library
+}
+\endgrid
+//! [pim]
+
 \section2 Other
 
 //! [frameworks]
