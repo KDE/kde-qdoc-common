@@ -254,16 +254,40 @@ These libraries are also offered by the KDE Community but don't neccesarily prov
 
 \section2 Plasma
 
-//! [frameworks]
+//! [plasma]
 \grid
     \griditem {plasma-index.html}{LibPlasma} {
         Building Blocks for Plasma
     }
     \griditem {union-index.html}{Union} {
-        A Qt style supporting both QtQuick and QtWidgets.
+        A Qt style supporting both QtQuick and QtWidgets
+    }
+    \griditem {legacy/plasma/kdecoration/html/index.html}{KDecoration} {
+        Plugin based library to create window decorations.
+    }
+    \griditem {legacy/plasma/kpipewire/html/index.html}{KPipeWire} {
+        Convenient classes to use PipeWire
+    }
+    \griditem {legacy/plasma/layer-shell-qt/html/index.html}{LayerShellQt} {
+        Layer Shell Qt
+    }
+    \griditem {legacy/plasma/libksysguard/html/index.html}{Libksysguard} {
+        Library to retrieve and display information on the current status of computer hardware
+    }
+    \griditem {legacy/plasma/plasma-workspace/html/index.html}{Plasma Workspace} {
+        Plasma Workspace
+    }
+    \griditem {legacy/plasma/plasma5support/html/index.html}{Plasma5Support} {
+        Migration aids for plasma5 deprecated classes
+    }
+    \griditem {legacy/plasma/plasma-activities/html/index.html}{PlasmaActivities} {
+        Activities Libary
+    }
+    \griditem {legacy/plasma/plasma-activities-stats/html/index.html}{PlasmaActivitiesStats} {
+        Activities Stats Libary
     }
 \endgrid
-//! [frameworks]
+//! [plasma]
 
 \section2 KDE PIM
 
@@ -370,7 +394,7 @@ These libraries are also offered by the KDE Community but don't neccesarily prov
 
 \section2 Other
 
-//! [frameworks]
+//! [other]
 \grid
     \griditem {md4qt-index.html}{md4qt} {
         Header-only C++ library for parsing Markdown
@@ -378,8 +402,113 @@ These libraries are also offered by the KDE Community but don't neccesarily prov
     \griditem {kirigami-addons-index.html}{Kirigami Addons} {
         Add-ons for the Kirigami framework
     }
+    \griditem {legacy/alkimia/html/index.html}{Alkimia API} {
+        Alkimia API documentation
+    }
+    \griditem {legacy/baloo-widgets/html/index.html}{Baloo Widgets} {
+        Widgets for Baloo
+    }
+    \griditem {legacy/futuresql/html/index.html}{Futuresql} {
+        Non-blocking database framework for Qt
+    }
+    \griditem {legacy/kasync/html/index.html}{KAsync} {
+        API to build composable asynchronous tasks
+    }
+    \griditem {legacy/kcddb/html/index.html}{KCDDB} {
+        KCDDB Library
+    }
+    \griditem {legacy/kcgroups/html/index.html}{KCGroups} {
+        Control cgroup resources through systemd dbus interface
+    }
+    \griditem {legacy/libkcompactdisc/html/index.html}{KCompactDisc} {
+        Library for interfacing with CDs
+    }
+    \griditem {legacy/libkdcraw/html/index.html}{KDcraw} {
+        A thread-safe wrapper around libraw
+    }
+    \griditem {legacy/libkdegames/html/index.html}{KDEGames} {
+        Common code and data for many KDE games
+    }
+    \griditem {legacy/libkexiv2/html/index.html}{KExiv2} {
+        Wrapper around Exiv2 library to manipulate picture metadata as EXIF and XMP
+    }
+    \griditem {legacy/khealthcertificate/html/index.html}{KHealthCertificate} {
+        Digital vaccination, test and recovery certificate parsing
+    }
+    \griditem {legacy/kmymoney/html/index.html}{KMyMoney Plugin API} {
+        KMyMoney Plugin API documentation
+    }
+    \griditem {legacy/libkomparediff2/html/index.html}{KompareDiff2} {
+        Library to compare files and strings
+    }
+    \griditem {legacy/kopeninghours/html/index.html}{KOpeningHours} {
+        OSM opening hours expression parser and evaluator
+    }
+    \griditem {legacy/kosmindoormap/html/index.html}{KOSMIndoorMap} {
+        OSM indoor map QML component
+    }
+    \griditem {legacy/kquickimageeditor/html/index.html}{KQuickImageEditor} {
+        QtQuick plugins for image editing UI
+    }
+    \griditem {legacy/krita/html/index.html}{Krita} {
+        Scripting API for Krita
+    }
+    \griditem {legacy/libksane/html/index.html}{KSane} {
+        SANE Library Qt-based interface
+    }
+    \griditem {legacy/ksanecore/html/index.html}{KSaneCore} {
+        Qt interface for the SANE library for scanner hardware
+    }
+    \griditem {legacy/kstars/html/index.html}{KStars} {
+        KStars is free, open source, cross-platform Astronomy Software.
+    }
+    \griditem {legacy/ktextaddons/html/index.html}{KTextAddons} {
+        Text addons (autocorrection, text to speak, grammar checking, text translator, emoticon support, custom editor, autogenerate text)
+    }
+    \griditem {legacy/kunifiedpush/html/index.html}{KUnifiedPush} {
+        UnifiedPush client components
+    }
+    \griditem {legacy/kweathercore/html/index.html}{KWeatherCore} {
+        Query weather data
+    }
+    \griditem {legacy/libkeduvocdocument/html/index.html}{LibKEduVocDocument} {
+        libKEduVocDocument is a library for reading and writing vocabulary files used by Parley, Kanagram, KHangman and KWordQuiz
+    }
+    \griditem {legacy/libkmahjongg/html/index.html}{LibKmahjongg} {
+        For loading and rendering of Mahjongg tilesets and associated backgrounds
+    }
+    \griditem {legacy/marble/html/index.html}{Marble} {
+        Marble framework, a library for maps, virtual globes and world atlases
+    }
+    \griditem {legacy/okular/html/index.html}{Okular} {
+        Okular, the unified document viewer
+    }
+    \griditem {legacy/perceptualcolor/html/index.html}{Perceptual Color} {
+        GUI components for choosing colors, with focus on an intuitive and perceptually uniform presentation
+    }
+    \griditem {legacy/phonon/html/index.html}{Phonon} {
+        Phonon, the Qt multimedia abstraction library
+    }
+    \griditem {legacy/plasma-wayland-protocols/html/index.html}{Plasma Wayland Protocols} {
+        Provides the xml files of non-standard wayland protocols used in Plasma
+    }
+    \griditem {legacy/polkit-qt-1/html/index.html}{PolkitQt-1} {
+        Qt wrapper around polkit-1
+    }
+    \griditem {legacy/pulseaudio-qt/html/index.html}{PulseAudioQt} {
+        Qt bindings for libpulse
+    }
+    \griditem {legacy/libqaccessibilityclient/html/index.html}{Qt Accessibility Client} {
+        Accessibilty tools helper library, used e.g. by screen readers
+    }
+    \griditem {legacy/kdiagram/kchart/html/index.html}{KChart} {
+        A library for creating business charts
+    }
+    \griditem {legacy/kdiagram/kgantt/html/index.html}{KGantt} {
+        A library for creating Gantt diagrams
+    }
 
 \endgrid
-//! [frameworks]
+//! [other]
 
 */
