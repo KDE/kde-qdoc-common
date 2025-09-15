@@ -288,6 +288,9 @@ Plasma is a desktop environment for Linux and FreeBSD but it's built as a platfo
     \griditem {legacy/plasma/plasma-activities-stats/html/index.html}{PlasmaActivitiesStats} {
         Activities Stats Libary
     }
+    \griditem {knighttime-index.html}{KNightTime} {
+        Helpers for scheduling the dark-light cycle
+    }
 \endgrid
 //! [plasma]
 
