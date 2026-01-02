@@ -356,10 +356,10 @@ Please note that unless stated otherwise, none of the libraries have stable API 
 \griditem {legacy/kdepim/kldap/html/index.html}{KLdap} {
     LDAP Support Library
 }
-\griditem {legacy/kdepim/kmbox/html/index.html}{KMbox} {
+\griditem {kmbox-index.html}{KMbox} {
     MBox library support
 }
-\griditem {legacy/kdepim/kmime/html/index.html}{KMime} {
+\griditem {kmime-index.html}{KMime} {
     The KMime Library
 }
 \griditem {legacy/kdepim/kontactinterface/html/index.html}{KontactInterface} {
