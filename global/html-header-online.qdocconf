@@ -34,7 +34,8 @@ HTML.headerstyles = \
     "  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n" \
     "  <link rel=\"stylesheet\" type=\"text/css\" href=\"style/online.css\" />\n" \
     "  <link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.kde.org/aether-devel/aether-docsy.css\" />\n" \
-    "  <link rel=\"shortcut icon\" href=\"images/favicon.ico\" />\n"
+    "  <link rel=\"shortcut icon\" href=\"images/favicon.ico\" />\n" \
+    "  <link href=\"/pagefind/pagefind-ui.css\" rel=\"stylesheet\">\n"
 
 HTML.headerscripts = \
     "  <script type=\"text/javascript\"> wpThemeFolder = \'http://qt.io/wp-content/themes/oneqt\'; </script>\n" \
@@ -48,7 +49,14 @@ HTML.headerscripts = \
     "     \$(\"#footer\").load(\"/style/qt-footer.html\");\n" \
     "     \$(\"#sidebar-content\").load(\"style/qt5-sidebar.html\");\n" \
     "  });\n" \
-    "  </script>\n"
+    "  </script>\n" \
+    "  </script>\n" \
+    "  <script src=\"/pagefind/pagefind-ui.js\"></script>" \
+    "  <script>\n" \
+    "  window.addEventListener('DOMContentLoaded', (event) => {\n" \
+    "     new PagefindUI({ element: \"#search\", showSubResults: true });\n" \
+    "  });\n" \
+    "  </script>"
 #     "  <script type=\"text/javascript\">\n" \
 #     "    (function (i, s, o, g, r, a, m) {\n" \
 #     "      i[\'GoogleAnalyticsObject\'] = r; i[r] = i[r] || function () {\n" \
@@ -95,6 +103,7 @@ HTML.postheader = \
     "</div>\n" \
     "<div class=\"main\">\n" \
     "<div class=\"main-rounded\">\n" \
+    "<div id=\"search\"></div>\n" \
     "<div class=\"navigationbar\">\n" \
     "    <ul class=\"breadcrumb spb-1\">\n"
 

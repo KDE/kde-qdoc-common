@@ -1,3 +1,20 @@
+body {
+  --pagefind-ui-primary: var(--body-color);
+  --pagefind-ui-text: var(--body-color);
+  --pagefind-ui-background: var(--body-bg);
+  --pagefind-ui-border: var(--primary);
+  --pagefind-ui-border-width: 1px;
+}
+
+#search {
+  padding-bottom: 1.5rem;
+
+  & > * > form > input:focus {
+    color: var(--pagefind-ui-text);
+  }
+}
+
+
 .breadcrumb > li + li {
   padding-left: .5rem;
 }
@@ -223,7 +240,7 @@ a {
 .main {
   max-width: 1300px;
   margin-inline: auto;
-  margin-top: 80px;
+  margin-top: 70px;
   padding-inline: 8px;
 }
 @media (max-width: 768px) {
