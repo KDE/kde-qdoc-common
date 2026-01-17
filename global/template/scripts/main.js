@@ -1,32 +1,5 @@
 "use strict";
 
-function createCookie(name, value, days) {
-    var expires;
-    if (days) {
-        var date = new Date();
-        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-        expires = "; expires=" + date.toGMTString();
-    } else {
-        expires = "";
-    }
-    document.cookie = escape(name) + "=" + escape(value) + expires + "; path=/";
-    $('.cookies_yum').click(function() {
-        $(this).fadeOut()
-    });
-}
-function readCookie(name) {
-    var nameEQ = escape(name) + "=";
-    var ca = document.cookie.split(';');
-    for (var i = 0; i < ca.length; i++) {
-        var c = ca[i];
-        while (c.charAt(0) === ' ') c = c.substring(1, c.length);
-        if (c.indexOf(nameEQ) === 0) return unescape(c.substring(nameEQ.length, c.length));
-    }
-    return null;
-}
-function eraseCookie(name) {
-    createCookie(name, "", -1);
-}
 function load_sdk(s, id, src) {
     var js, fjs = document.getElementsByTagName(s)[0];
     if (document.getElementById(id)) return;
@@ -47,16 +20,6 @@ $(document).ready(function($) {
         $('.big_bar_search').focus();
         $(this).toggleClass('open');
     });
-    $('.cookies_yum').click(function() {
-        $('.cookies_yum').fadeOut();
-        createCookie("cookies_nom", "yum", 180);
-        var cookie_added = 1;
-    });
-    if (!(readCookie('cookies_nom') == 'yum')) {
-        $('.cookies_yum').fadeIn();
-    } else {
-        var cookie_added = 1;
-    }
 
     Modernizr.load({test: Modernizr.input.placeholder,
                     nope: wpThemeFolder + '/js/placeholders.min.js'});
@@ -128,12 +91,6 @@ var oneQt = {
         if ($(window).scrollTop() > originalHeaderHeight) {
             $('#navbar').addClass('fixed');
             $('#bottom_header').fadeOut();
-
-            if (!(cookie_added == 1)) {
-                $('.cookies_yum').fadeOut();
-                createCookie("cookies_nom", "yum", 180);
-                var cookie_added = 1;
-            }
         }
         else {
             $('#navbar').removeClass('fixed');
