@@ -93,14 +93,6 @@ $(document).ready(function($) {
     oneQt.tabContents();
 });
 
-$( window ).load(function() {
-    load_sdk('script', 'facebook-jssdk','//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=207346529386114&version=v2.0');
-    load_sdk('script', 'twitter-wjs', '//platform.twitter.com/widgets.js');
-    $.getScript("//www.google.com/jsapi", function(){
-        google.load("feeds", "1", {"callback": oneQt.liveFeeds});
-    });
-});
-
 var oneQt = {
     stickySidebar: function() {
         if ($('#sidebar').length && $('#sidebar').outerHeight() > 20) {
@@ -162,53 +154,6 @@ var oneQt = {
                 $(this).parent().addClass('active');
                 $el.find('.tab-contents .tab').eq(index).addClass('active');
             })
-        });
-    },
-
-    liveFeeds: function () {
-        $('.feed-container').each(function(i) {
-            var feedUrl = $(this).data('url');
-            if (feedUrl != "") oneQt.blogFeed($(this), feedUrl);
-        });
-    },
-
-    blogFeed: function ($container, feedUrl) {
-        var feed = new google.feeds.Feed(feedUrl);
-        feed.setNumEntries(3);
-        feed.load(function(result) {
-            $container.html('');
-            if (!result.error) {
-                for (var i = 0; i < result.feed.entries.length; i++) {
-                    var entry = result.feed.entries[i];
-                    var $article = $('<article class="discussion-tile cf"></article>');
-                    $container.append($article);
-                    var html = '    <div class="author retina">';
-                    html += '        <img src="'+wpThemeFolder+'/assets/images/author_placeholder.png" alt="">';
-                    html += '    </div>';
-                    html += '    <div class="discussion-item">';
-                    html += '        <h4><a href="'+encodeURI(entry.link)+'"></a></h4>'
-                    html += '        <h3><a href="'+encodeURI(entry.link)+'" target="_blank"></a></h3>'
-                    html += '        <p><a href="'+encodeURI(entry.link)+'" target="_blank"></a></p>';
-                    html += '        <ul class="taglist cf">';
-                    html += '        </ul>';
-                    html += '    </div>';
-                    $article.append(html);
-                    $article.find('h4 a').text(result.feed.title);
-                    $article.find('h3 a').text(entry.title);
-                    $article.find('p a').text(entry.author);
-                    try {
-                        for (var j=0; j<entry.categories.length; j++) {
-                            var $li = $('<li><a href="'+encodeURI(entry.link)+'" target="_blank" class="btn btn-tag"></a></li>');
-                            $li.find('a').text(entry.categories[j]);
-                            $article.find('.taglist').append($li);
-                        }
-                    } catch(e) {}
-                }
-                if (result.feed.link && result.feed.link != "") {
-                    var linkHtml = '<a href="'+encodeURI(result.feed.link)+'" class="text-lightgrey" target="_blank">Show all</a>';
-                    $container.append(linkHtml);
-                }
-            }
         });
     },
 
