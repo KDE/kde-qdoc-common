@@ -453,7 +453,7 @@ Please note that unless stated otherwise, none of the libraries have stable API 
     \griditem {legacy/kmymoney/html/index.html}{KMyMoney Plugin API} {
         KMyMoney Plugin API documentation
     }
-    \griditem {legacy/libkomparediff2/html/index.html}{KompareDiff2} {
+    \griditem {libkomparediff2-index.html}{KompareDiff2} {
         Library to compare files and strings
     }
     \griditem {legacy/kopeninghours/html/index.html}{KOpeningHours} {
