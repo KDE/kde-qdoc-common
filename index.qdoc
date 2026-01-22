@@ -513,7 +513,7 @@ Please note that unless stated otherwise, none of the libraries have stable API 
     \griditem {legacy/pulseaudio-qt/html/index.html}{PulseAudioQt} {
         Qt bindings for libpulse
     }
-    \griditem {legacy/libqaccessibilityclient/html/index.html}{Qt Accessibility Client} {
+    \griditem {qaccessibilityclient-index.html}{Qt Accessibility Client} {
         Accessibilty tools helper library, used e.g. by screen readers
     }
     \griditem {legacy/kdiagram/kchart/html/index.html}{KChart} {
