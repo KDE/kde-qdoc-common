@@ -444,7 +444,7 @@ Please note that unless stated otherwise, none of the libraries have stable API 
     \griditem {legacy/libkdegames/html/index.html}{KDEGames} {
         Common code and data for many KDE games
     }
-    \griditem {legacy/libkexiv2/html/index.html}{KExiv2} {
+    \griditem {kexiv2-index.html}{KExiv2} {
         Wrapper around Exiv2 library to manipulate picture metadata as EXIF and XMP
     }
     \griditem {legacy/khealthcertificate/html/index.html}{KHealthCertificate} {
