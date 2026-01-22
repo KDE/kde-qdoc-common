@@ -462,7 +462,7 @@ Please note that unless stated otherwise, none of the libraries have stable API 
     \griditem {legacy/kosmindoormap/html/index.html}{KOSMIndoorMap} {
         OSM indoor map QML component
     }
-    \griditem {legacy/kquickimageeditor/html/index.html}{KQuickImageEditor} {
+    \griditem {kquickimageeditor-index.html}{KQuickImageEditor} {
         QtQuick plugins for image editing UI
     }
     \griditem {legacy/krita/html/index.html}{Krita} {
