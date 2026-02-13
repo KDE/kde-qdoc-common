@@ -261,6 +261,9 @@ Plasma is a desktop environment for Linux and FreeBSD but it's built as a platfo
     \griditem {plasma-index.html}{LibPlasma} {
         Building Blocks for Plasma
     }
+    \griditem {kwin-index.html}{KWin} {
+        Scripting API for KWin
+    }
     \griditem {union-index.html}{Union} {
         A Qt style supporting both QtQuick and QtWidgets
     }
