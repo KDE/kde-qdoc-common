@@ -285,7 +285,7 @@ Plasma is a desktop environment for Linux and FreeBSD but it's built as a platfo
     \griditem {legacy/plasma/plasma5support/html/index.html}{Plasma5Support} {
         Migration aids for plasma5 deprecated classes
     }
-    \griditem {legacy/plasma/plasma-activities/html/index.html}{PlasmaActivities} {
+    \griditem {plasmaactivities-index.html}{Plasma Activities} {
         Activities Libary
     }
     \griditem {legacy/plasma/plasma-activities-stats/html/index.html}{PlasmaActivitiesStats} {
