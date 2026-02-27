@@ -50,7 +50,7 @@ the library is through \l{CMake Documentation}{CMake}.
 
 //! [building with cmake]
     Use the \c {find_package()} command to locate the needed module component
-    in the \c {KF6} package:
+    in the \c {\1} package:
 
     \code
     find_package(\1 REQUIRED COMPONENTS \2)
@@ -59,3 +59,14 @@ the library is through \l{CMake Documentation}{CMake}.
 
     For more details, see the \l {https://doc.qt.io/qt-6/cmake-manual.html}{Build with CMake} overview.
 //! [building with cmake]
+
+//! [building with cmake nomodule]
+Use the \c {find_package()} command to locate the \c {\1} package
+
+\code
+find_package(\1 REQUIRED)
+target_link_libraries(mytarget PRIVATE \2)
+\endcode
+
+For more details, see the \l {https://doc.qt.io/qt-6/cmake-manual.html}{Build with CMake} overview.
+//! [building with cmake nomodule]
