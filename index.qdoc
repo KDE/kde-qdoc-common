@@ -163,6 +163,9 @@ Tier 2 frameworks additionally depend on tier 1 frameworks, but still have easil
     \griditem {syndication-index.html}{Syndication} {
         An RSS/Atom parser library
     }
+    \griditem {kmime-index.html}{KMime} {
+        The KMime Library
+    }
 \endgrid
 //! [frameworks-tier2]
 
@@ -301,7 +304,7 @@ Plasma is a desktop environment for Linux and FreeBSD but it's built as a platfo
 
 KDE PIM provides a set of libraries and applications to access and manage personal information like emails, contacts, events, etc.
 
-KDE PIM provides a set of libraries to parse and interact with various standardized PIM data formats, like RFC822 (KMime), ICAL (KCalendarCore) or VCARD (KContacts).
+KDE PIM provides a set of libraries to parse and interact with various standardized PIM data formats, like ICAL (KCalendarCore) or VCARD (KContacts).
 
 The backbone of the entire suite is Akonadi, the PIM storage framework. Akonadi provides unified API to access and manage any kind of PIM data regardless of the actual storage backend.
 
@@ -361,9 +364,6 @@ Please note that unless stated otherwise, none of the libraries have stable API 
 }
 \griditem {kmbox-index.html}{KMbox} {
     MBox library support
-}
-\griditem {kmime-index.html}{KMime} {
-    The KMime Library
 }
 \griditem {legacy/kdepim/kontactinterface/html/index.html}{KontactInterface} {
     Kontact Plugin Interface Library
