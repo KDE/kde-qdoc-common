@@ -519,6 +519,9 @@ Please note that unless stated otherwise, none of the libraries have stable API 
     \griditem {qaccessibilityclient-index.html}{Qt Accessibility Client} {
         Accessibilty tools helper library, used e.g. by screen readers
     }
+    \griditem {qxmpp-index.html}{QXmpp} {
+        A cross-platform C++ XMPP client and server library
+    }
     \griditem {legacy/kdiagram/kchart/html/index.html}{KChart} {
         A library for creating business charts
     }
