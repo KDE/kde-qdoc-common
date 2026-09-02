@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
+project(kde-qdoc-common)
 
 find_package(ECM 6.15 REQUIRED)
 
