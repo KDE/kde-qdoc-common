@@ -39,9 +39,6 @@ HTML.headerstyles = \
 
 HTML.headerscripts = \
     "  <script type=\"text/javascript\"> wpThemeFolder = \'http://qt.io/wp-content/themes/oneqt\'; </script>\n" \
-    "  <script type=\"text/javascript\" src=\"//d33sqmjvzgs8hq.cloudfront.net/wp-includes/js/jquery/jquery.js.gzip\"></script>\n" \
-    "  <script type=\"text/javascript\" src=\"//d33sqmjvzgs8hq.cloudfront.net/wp-includes/js/jquery/jquery-migrate.min.js.gzip\"></script>\n" \
-    "  <script type=\"text/javascript\" src=\"//d33sqmjvzgs8hq.cloudfront.net/wp-content/themes/oneqt/js/combo.js.gzip\"></script>\n" \
     "  <script type=\"text/javascript\" src=\"scripts/main.js\"></script>\n" \
     "  <script type=\"text/javascript\" src=\"scripts/extras.js\"></script>\n" \
     "  <script type=\"text/javascript\">\n" \
