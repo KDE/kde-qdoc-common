@@ -441,7 +441,7 @@ Please note that unless stated otherwise, none of the libraries have stable API 
     \griditem {legacy/libkcompactdisc/html/index.html}{KCompactDisc} {
         Library for interfacing with CDs
     }
-    \griditem {legacy/libkdcraw/html/index.html}{KDcraw} {
+    \griditem {libkdcraw-index.html}{KDcraw} {
         A thread-safe wrapper around libraw
     }
     \griditem {legacy/libkdegames/html/index.html}{KDEGames} {
