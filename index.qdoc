@@ -492,7 +492,7 @@ Please note that unless stated otherwise, none of the libraries have stable API 
     \griditem {legacy/libkeduvocdocument/html/index.html}{LibKEduVocDocument} {
         libKEduVocDocument is a library for reading and writing vocabulary files used by Parley, Kanagram, KHangman and KWordQuiz
     }
-    \griditem {legacy/libkmahjongg/html/index.html}{LibKmahjongg} {
+    \griditem {libkmahjongg-index.html}{LibKmahjongg} {
         For loading and rendering of Mahjongg tilesets and associated backgrounds
     }
     \griditem {legacy/marble/html/index.html}{Marble} {
