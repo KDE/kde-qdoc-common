@@ -344,9 +344,6 @@ Please note that unless stated otherwise, none of the libraries have stable API 
 \griditem {legacy/kdepim/incidenceeditor/html/index.html}{Indicenceeditor} {
     Incidenceeditor Library
 }
-\griditem {legacy/kdepim/kcalutils/html/index.html}{KCalUtils} {
-    Calendar Utility Library
-}
 \griditem {legacy/kdepim/libkgapi/html/index.html}{KGAPI} {
     Implementation of APIs for various Google services
 }
