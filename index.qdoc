@@ -441,7 +441,7 @@ Please note that unless stated otherwise, none of the libraries have stable API 
     \griditem {libkdcraw-index.html}{KDcraw} {
         A thread-safe wrapper around libraw
     }
-    \griditem {legacy/libkdegames/html/index.html}{KDEGames} {
+    \griditem {libkdegames-index.html}{KDEGames} {
         Common code and data for many KDE games
     }
     \griditem {kexiv2-index.html}{KExiv2} {
