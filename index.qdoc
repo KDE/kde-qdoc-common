@@ -314,94 +314,94 @@ Please note that unless stated otherwise, none of the libraries have stable API 
 
 //! [pim]
 \grid
-\griditem {legacy/kdepim/akonadi/html/index.html}{Akonadi} {
+\griditem {akonadi-index.html}{Akonadi} {
     PIM Storage Framework
 }
-\griditem {legacy/kdepim/akonadi-calendar/html/index.html}{Akonadi Calendar} {
+\griditem {akonadicalendar-index.html}{Akonadi Calendar} {
      Akonadi Calendar Library
 }
-\griditem {legacy/kdepim/akonadi-contacts/html/index.html}{Akonadi Contacts} {
+\griditem {akonadi-contacts-index.html}{Akonadi Contacts} {
     Akonadi Contacts Library
 }
-\griditem {legacy/kdepim/akonadi-mime/html/index.html}{Akonadi Mime} {
+\griditem {akonadi-mime-index.html}{Akonadi Mime} {
     Akonadi Mime Library
 }
 \griditem {legacy/kdepim/akonadi-search/html/index.html}{Akonadi Search} {
     Akonadi indexing and searching Library
 }
-\griditem {legacy/kdepim/calendarsupport/html/index.html}{CalendarSupport} {
+\griditem {calendarsupport-index.html}{CalendarSupport} {
     Calendar Support Library
 }
-\griditem {legacy/kdepim/eventviews/html/index.html}{Eventviews} {
+\griditem {eventviews-index.html}{Eventviews} {
     Event Views Library
 }
-\griditem {legacy/kdepim/grantleetheme/html/index.html}{GrantleeTheme} {
+\griditem {grantleetheme-index.html}{GrantleeTheme} {
     KDE PIM Grantlee theme support library
 }
-\griditem {legacy/kdepim/libgravatar/html/index.html}{Gravatar} {
+\griditem {libgravatar-index.html}{Gravatar} {
     Gravatar Support Library
 }
-\griditem {legacy/kdepim/incidenceeditor/html/index.html}{Indicenceeditor} {
+\griditem {incidenceeditor-index.html}{Indicenceeditor} {
     Incidenceeditor Library
 }
 \griditem {legacy/kdepim/libkgapi/html/index.html}{KGAPI} {
     Implementation of APIs for various Google services
 }
-\griditem {legacy/kdepim/kidentitymanagement/html/index.html}{KIdentityManagement} {
+\griditem {kidentitymanagement-index.html}{KIdentityManagement} {
     Manage PIM Identity
 }
-\griditem {legacy/kdepim/kimap/html/index.html}{KIMAP} {
+\griditem {kimap-index.html}{KIMAP} {
     A job-based API for interacting with IMAP servers
 }
 \griditem {legacy/kdepim/kitinerary/html/index.html}{KItinerary} {
     Itinerary extraction and data model
 }
-\griditem {legacy/kdepim/kldap/html/index.html}{KLdap} {
+\griditem {kldap-index.html}{KLdap} {
     LDAP Support Library
 }
 \griditem {kmbox-index.html}{KMbox} {
     MBox library support
 }
-\griditem {legacy/kdepim/kontactinterface/html/index.html}{KontactInterface} {
+\griditem {kontactinterface-index.html}{KontactInterface} {
     Kontact Plugin Interface Library
 }
-\griditem {legacy/kdepim/kpimtextedit/html/index.html}{KPimTextEdit} {
+\griditem {kpimtextedit-index.html}{KPimTextEdit} {
     Advanced text editor which provide advanced html feature
 }
-\griditem {legacy/kdepim/kpkpass/html/index.html}{KPkPass} {
+\griditem {kpkpass-index.html}{KPkPass} {
     PkPass File Support
 }
 \griditem {legacy/kdepim/kpublictransport/html/index.html}{KPublicTransport} {
     Public transport data querying API
 }
-\griditem {legacy/kdepim/ksmtp/html/index.html}{KSMTP} {
+\griditem {ksmtp-index.html}{KSMTP} {
     SMTP Library
 }
-\griditem {legacy/kdepim/ktnef/html/index.html}{KTnef} {
+\griditem {ktnef-index.html}{KTnef} {
     An API for handling TNEF data
 }
-\griditem {legacy/kdepim/libkdepim/html/index.html}{Libkdepim} {
+\griditem {libkdepim-index.html}{Libkdepim} {
     KDEpim Library
 }
 \griditem {legacy/kdepim/libkleo/html/index.html}{Libkleo} {
     Kleopatra certificate management library
 }
-\griditem {legacy/kdepim/libksieve/html/index.html}{Libksieve} {
+\griditem {libksieve-index.html}{Libksieve} {
     Sieve Script Library
 }
-\griditem {legacy/kdepim/mailcommon/html/index.html}{Mailcommon} {
+\griditem {mailcommon-index.html}{Mailcommon} {
     MailCommon Library
 }
-\griditem {legacy/kdepim/mailimporter/html/index.html}{MailImporter} {
+\griditem {mailimporter-index.html}{MailImporter} {
     Mail Importer Library implements importing of emails from various other email clients
 }
-\griditem {legacy/kdepim/mailtransport/html/index.html}{MailTransport} {
+\griditem {kmailtransport-index.html}{MailTransport} {
     Manage mail transport
 }
-\griditem {legacy/kdepim/messagelib/html/index.html}{Messagelib} {
+\griditem {messagelib-index.html}{Messagelib} {
     Messagelib Library which contains MessageComposer, MessageCore, MessageList, MessageViewer, MimeTreeParser, TemplateParser and WebEngineViewer
 }
-\griditem {legacy/kdepim/pimcommon/html/index.html}{Pimcommon} {
+\griditem {pimcommon-index.html}{Pimcommon} {
     PimCommon Library which contains PimCommon, PimCommonAkonadi
 }
 \endgrid
@@ -477,8 +477,8 @@ Please note that unless stated otherwise, none of the libraries have stable API 
     \griditem {legacy/kstars/html/index.html}{KStars} {
         KStars is free, open source, cross-platform Astronomy Software.
     }
-    \griditem {legacy/ktextaddons/html/index.html}{KTextAddons} {
-        Text addons (autocorrection, text to speak, grammar checking, text translator, emoticon support, custom editor, autogenerate text)
+    \griditem {ktextaddons-index.html}{KTextAddons} {
+        Text-related libraries: auto-correction, AI text generation, text to speech, emoticons, grammar checking, translation and more
     }
     \griditem {legacy/kunifiedpush/html/index.html}{KUnifiedPush} {
         UnifiedPush client components
