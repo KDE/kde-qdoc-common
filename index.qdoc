@@ -423,6 +423,9 @@ Please note that unless stated otherwise, none of the libraries have stable API 
     \griditem {legacy/baloo-widgets/html/index.html}{Baloo Widgets} {
         Widgets for Baloo
     }
+    \griditem {dragonmediabackend-index.html}{Dragon Media Backend} {
+        Audio playback library for music players
+    }
     \griditem {legacy/futuresql/html/index.html}{Futuresql} {
         Non-blocking database framework for Qt
     }
